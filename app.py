@@ -1,3 +1,5 @@
+
+import os
 # Print some statements
 print('Hello World')
 
@@ -11,3 +13,4 @@ print(t)
 with open('something.txt', 'w') as file:
     file.write('whatever')
     print('saved file')
+    print(os.getcwd())
