@@ -14,3 +14,5 @@ with open('something.txt', 'w') as file:
     file.write('whatever')
     print('saved file')
     print(os.getcwd())
+    print('$$$$$$$$$$$$$$$')
+    print(os.listdir())
