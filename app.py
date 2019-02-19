@@ -9,7 +9,6 @@ m = 4
 t = n + m
 print(t)
 
-
 with open('something.txt', 'w') as file:
     file.write('whatever')
     print('saved file')
