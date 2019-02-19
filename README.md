@@ -2,21 +2,21 @@
 
 ## Notes
 
-1. It's recommended that you create a virtual environment before starting to set-up your app.
++ It's recommended that you create a virtual environment before starting to set-up your app.
 
 ```bash
 virtualenv vsp
 ```
 Hint: vsp is the name of the virtual environment, you may want to modify that
 
-2. To create the requirements.txt file, you can always use
++ To create the requirements.txt file, you can always use
 ```bash
 pip freeze > requirements.txt
 ```
 
-3. You do not need a Procfile
++ You do not need a Procfile
 
-4. The app.json helps to use bash in dynos. The code below opens bash in a heroku dyno
++ The app.json helps to use bash in dynos. The code below opens bash in a heroku dyno
 ```bash
 heroku run bash -a my-app
 ```
