@@ -20,3 +20,9 @@ pip freeze > requirements.txt
 ```bash
 heroku run bash -a my-app
 ```
+
++ To see that this is running, you can use:
+```bash
+heroku run python app.py
+```
+You should see some print statements in the terminal.

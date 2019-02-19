@@ -15,3 +15,4 @@ with open('something.txt', 'w') as file:
     print(os.getcwd())
     print('$$$$$$$$$$$$$$$')
     print(os.listdir())
+    print('Yes, you did it! This is running!')
