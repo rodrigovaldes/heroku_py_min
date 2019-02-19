@@ -16,7 +16,7 @@ pip freeze > requirements.txt
 
 3. You do not need a Procfile
 
-4. The app.json file helps to run vim in the dynos.
+4. The app.json helps to use bash in dynos. The code below opens bash in a heroku dyno
 ```bash
 heroku run bash -a my-app
 ```
