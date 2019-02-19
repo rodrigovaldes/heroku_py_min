@@ -25,4 +25,4 @@ heroku run bash -a my-app
 ```bash
 heroku run python app.py
 ```
-You should see some print statements in the terminal.
+You should see a message: **Yes, you did it! This is running!**
