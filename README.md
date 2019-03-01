@@ -24,11 +24,11 @@ heroku login
 ## Structure of the code
 
 + You must have a file named ```requirements.txt```
-⋅⋅⋅ requirements.txt >> python modules you need
+   requirements.txt >> python modules you need
 
 + Sometimes, you may need two more files:
-⋅⋅⋅ ```runtime.txt``` >> specify that you're using python
-⋅⋅⋅ ```Procfile``` >> simple text file without extension
+   ```runtime.txt``` >> specify that you're using python
+   ```Procfile``` >> simple text file without extension
 
 ---
 ## Code in the repo
