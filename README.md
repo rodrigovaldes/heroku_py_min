@@ -1,28 +1,66 @@
 # Simple python job in Heroku
 
-## Notes
+---
+# What is Heroku?
++ An application platform
++ Push the code. They take care of the rest.
++ No servers, no instances, not –a lot– of configurations.
++ Front-End and Back-end
 
-+ It's recommended that you create a virtual environment before starting to set-up your app.
+---
+# Requirements
 
+1) You must open a Heroku account
+2) Install Heroku in the command line
+```
+brew install heroku/brew/heroku
+```
+3) Log in
+```
+heroku login
+```
+
+---
+# Structure of the code
+
++ You must have a file named ```requirements.txt```
+... requirements.txt >> python modules you need
+
++ Sometimes, you may need two more files:
+... ```runtime.txt``` >> specify that you're using python
+... ```Procfile``` >> simple text file without extension
+
+---
+# Code in the repo
+| File        | Content           |
+| ------------- |:-------------:|
+| .gitignore      | avoid pushing files you do not need in the cloud|
+| app.json      | installs vim in Heroku |   
+| app.py | main code|
+|requirements.txt | python packages to install|
+
+---
+# Run the app
+1. Create a virtual environment
 ```bash
 virtualenv vsp
 ```
 Hint: vsp is the name of the virtual environment, you may want to modify that
-
-+ To create the requirements.txt file, you can always use
+2. Install the packages you need
+```
+pip install math
+```
+3. Create ```requirements.txt```
 ```bash
 pip freeze > requirements.txt
 ```
-
-+ You do not need a Procfile
-
-+ The app.json helps to use bash in dynos. The code below opens bash in a heroku dyno
-```bash
-heroku run bash -a my-app
-```
-
-+ To see that this is running, you can use:
+4. Run the code
 ```bash
 heroku run python app.py
 ```
 You should see a message: **Yes, you did it! This is running!**
+
+---
+# Notes
++ Use ```heroku run bash``` to see a terminal running in a dyno (heroku 'server')
++ Basically, use ```heroku run``` as a prefix and do whatever you want
