@@ -24,13 +24,14 @@ heroku login
 ## Structure of the code
 
 + Minimum files:
-    1. ```main_code.py```
+    1. ```app.py``` (you can use other names)
     2. ```requirements.txt``` >> python packages you need
 
 + Sometimes, you need two more files:
     1. ```runtime.txt``` >> specify that you're using python
     2. ```Procfile``` >> simple text file without extension
 
++ Note: You must not modify the names of the files
 ---
 ## Code in the repo
 | File        | Content           |
