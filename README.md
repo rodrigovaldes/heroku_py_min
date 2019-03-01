@@ -51,7 +51,8 @@ Hint: vsp is the name of the virtual environment, you may want to modify that
 
 2. Install the packages you need
 ```
-pip install math
+pip install NameOfPackage1
+pip install NameOfPackage2
 ```
 
 3. Create ```requirements.txt```
