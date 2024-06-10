@@ -47,7 +47,7 @@ heroku login
 ```bash
 virtualenv vsp
 ```
-Hint: vsp is the name of the virtual environment, you may want to modify that
+Hint: vsp is the name of the virtual environment, you may want to modify it
 
 2. Install the packages you need
 ```
