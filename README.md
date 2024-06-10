@@ -13,7 +13,7 @@
 1) You must open a [Heroku account](https://www.heroku.com/)
 2) Install Heroku in the command line
 ```
-brew install heroku/brew/heroku
+brew tap heroku/brew && brew install heroku
 ```
 3) Log in
 ```
